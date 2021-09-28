@@ -1,1 +1,0 @@
-# aplicacions_web
