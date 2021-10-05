@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="registre.html" method="GET">
+        <h1>
+            Exercici, formulari de registre
+        </h1>
+        <label for="idNom"> Nom: </label>
+        <input type="text" id="idNom" name="nom" required>
+        <label for="idLlinatges"> Llinatges: </label>
+        <input type="text" id="idLlinatges" name="llinatges" required>
+        <br>
+        <label for="idRadi1"> Home: </label>
+        <input type="radio" id="idRadi1" name="opcio" value="radi1">
+        <label> Dona: </label>
+        <input type="radio" id="idRadi2" name="opcio" value="radi2">
+        <label> Altre: </label>
+        <input type="radio" id="idRadi3" name="opcio" value="radi3">
+        <br>
+        <label for="email"> Email: </label>
+        <input type="email" name="email" id="email" required>
+        <label for="pass"> Contrasenya: </label>
+        <input type="password" name="contra" id="pass" required maxlength="10" minlength="5">
+        <br>
+        <label> Data de naixament: </label>
+        <input type="date" name="data" required>
+        <br>
+        <label for="checkbox1"> Estic d'acord amb els termes i condicions </label>
+        <input type="checkbox" name="ok" id="checkbox1" value="ck1" required>
+        <br>
+        <label for=""></label>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+</body>
+
+</html>
