@@ -1,0 +1,83 @@
+#menu li {
+    background-color: rgb(255,255,0);
+    display: inline-block;
+    border-radius: 20px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 360px;
+    box-shadow: 0px 0px 0px 5px rgb(128,128,0);
+    margin: 20px;
+}
+
+#menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ td {
+     text-align: center;
+     font-size: 16px;
+ }
+ 
+ th {
+     background-color: rgb(0, 16, 82);
+     color: rgb(173, 173, 233);
+     border-color: rgb(0, 16, 82);
+ }
+ 
+td.hora {
+    background-color: rgb(0, 16, 82);
+    color: rgb(173, 173, 233);
+    border-color: rgb(0, 16, 82);
+}
+
+td.seg {
+    background-color: gray;
+    color: rgb(31, 31, 31);
+    border-color: gray;
+}
+
+td.xar {
+    background-color: rgb(48, 48, 255);
+    color: rgb(9, 9, 118);
+    background-color: rgb(48, 48, 255);
+}
+
+td.sis {
+    background-color: orangered;
+    color: rgb(128, 34, 0);
+    background-color: orangered;
+}
+
+td.web {
+    background-color: greenyellow;
+    color: rgb(54, 90, 0);
+    background-color: greenyellow;
+}
+
+td.eie {
+    background-color: brown;
+    color: rgb(56, 6, 6);
+    background-color: brown;
+}
+
+td.smx {
+    background-color: rgb(0, 16, 82);
+    color: rgb(130, 130, 255);
+    background-color: rgb(0, 16, 82);
+}
+
+td.pati {
+    background-color: rosybrown;
+    color: rgb(67, 47, 47);
+    background-color: rosybrown;
+}
+
+table {
+    border-spacing: 0px;
+}
