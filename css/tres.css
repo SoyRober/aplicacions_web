@@ -1,0 +1,41 @@
+table {
+    padding-top: 100px;
+    color: white;
+    font-size: 100px;
+}
+
+td {
+    width: 200px;
+    height: 150px;
+}
+
+.adcen {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.midiz {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.midmid {
+    border: 2px solid black;
+}
+
+.midder {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.abaiz {
+    border-top: 2px solid white;
+}
+
+.abamid {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.abader {
+    border-top: 2px solid white;
+}
