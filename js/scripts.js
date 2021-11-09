@@ -1,1 +1,4 @@
-<script src="https://kit.fontawesome.com/49cdb423ac.js&quot; crossorigin="anonymous"></script>
+document.querySelector(".hamburguer").addEventListener("click", function(){
+	document.querySelector("#main").classList.toggle("show");
+	document.querySelector("#main").classList.toggle("hide");
+});

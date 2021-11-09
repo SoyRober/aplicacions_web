@@ -10,6 +10,41 @@ table {
     font-size: 100px;
 }
 
+nav {
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: table;
+    width: 100%;
+    padding-top: 10px;
+}
+
+nav ul li {
+    display: table-cell;
+    width: 10%;
+    height: 4vh;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    height: 40%;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: grey;
+    color: white;
+    height: 70%;
+    border-radius: 20px;
+}
+
 td {
     width: 200px;
     height: 150px;
@@ -46,30 +81,6 @@ td {
     border-top: 2px solid white;
 }
 
-nav {
-    background-color: black;
-}
-
-#menu li {
-    background-color: black;
-    display: inline-block;
-    margin: 20px;
-}
-
-#menu a {
-    color: black;
-    text-decoration: none;
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.fontawesome {
-    display: flex;
-    width: 70%;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 i {
     color: lightgrey;
